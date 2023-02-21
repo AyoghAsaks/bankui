@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    line-height: 1.6;
+    padding: 0.5em;
+    padding-left: 6px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+    grid-gap: 5px;
+    border: 3px solid #73AD21;
+    padding: 15px 15px 15px 15px;
+}
+
+.wrapper {
+    padding-right: 8px;
+}
+
+.wrapper-t {
+    padding: 10px;
+    margin-left: 15%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+p a {
+    color: red;
+}
+h4 {
+    text-align: center;
+    margin-bottom: 2px;
+}
+span {
+    color: red;
+}
+
+label {
+    display: block;
+}
+
+.btn {
+    display: inline;
+    display: block;
+    margin-left: 15px;
+    text-align: center;
+    padding: 10px;
+}
+.button {
+    display: block;
+}
+
+.signin {
+    display: inline;
+    margin-left: 15px;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 5px;
+}
+
+.instructions {
+    font-size: 0.90rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: red;
+    padding: 0.20rem;
+    position: relative;
+    width: 85%;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+/* The CSS below contains only Login.js Code */
+.container-12 {
+    margin-bottom: 16px;
+}
+
+/* The CSS below contains only NavBar.js Code */
+.NavBar {
+    z-index: 1;
+    display: flex;
+    justify-items: flex-start;
+    padding: 5px;
+}
+.nav-item-1 {
+    display: inline;
+    text-align: center;
+    padding-left: 6px;
+}
+.nav-items {
+    padding-bottom: 6px;
+}
+
+/* The CSS below contains only Home.js Code */
+.home input {
+    visibility: hidden; /* this hides the input tag */
+}
